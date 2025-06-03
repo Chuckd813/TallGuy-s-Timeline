@@ -11,7 +11,7 @@ const mockEvents: Event[] = [
     location: 'Virtual Conference',
     description: 'Join TallGuyTycoon as he discusses the evolving landscape of digital assets and investment strategies in the new economy.',
     category: 'Webinar',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/images/staytuned.png',
     link: '#',
   },
   {
@@ -22,7 +22,7 @@ const mockEvents: Event[] = [
     location: 'Miami, FL',
     description: 'An exclusive in-person event for serious entrepreneurs looking to scale their ventures with insights from Armando Pantoja.',
     category: 'Workshop',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/images/staytuned.png',
     link: '#',
   },
   {
@@ -33,7 +33,7 @@ const mockEvents: Event[] = [
     location: 'New York City, NY',
     description: 'TallGuyTycoon delivers a keynote speech on the future trends in cryptocurrency and blockchain technology.',
     category: 'Conference',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: '/images/staytuned.png',
     link: '#',
   },
 ];
