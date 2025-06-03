@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'TycoonVerse',
+  title: "TallGuy's Timeline",
   description: 'Showcasing Armando Pantoja - TallGuyTycoon: Events, YouTube, and Instagram.',
 };
 

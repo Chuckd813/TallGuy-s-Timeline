@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-4 md:mb-0">
             <Copyright className="h-4 w-4" />
-            <span>{currentYear} TycoonVerse. All rights reserved.</span>
+            <span>{currentYear} TallGuy's Timeline. All rights reserved.</span>
           </div>
           <div className="flex space-x-4">
             <Link href="https://www.youtube.com/@tallguytycoon" target="_blank" rel="noopener noreferrer" aria-label="TallGuyTycoon YouTube">

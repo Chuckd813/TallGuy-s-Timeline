@@ -14,7 +14,7 @@ function WelcomeSection() {
           <div className="p-8 md:p-12">
             <CardHeader className="p-0">
               <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold">
-                Welcome to <span className="text-primary">Tycoon</span><span className="text-accent">Verse</span>
+                Welcome to <span className="text-primary">TallGuy's</span><span className="text-accent"> Timeline</span>
               </h1>
               <CardDescription className="mt-4 text-lg text-foreground/80 font-body">
                 Discover the latest from Armando Pantoja (TallGuyTycoon). Explore upcoming events, catch live streams, and connect on social media.
