@@ -23,7 +23,7 @@ export function YoutubeSection() {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="min-h-[300px] md:min-h-[400px]"
+              className="w-full h-full min-h-[250px] sm:min-h-[300px] md:min-h-[400px]"
             ></iframe>
           </div>
           <div className="mt-4 text-center">

@@ -28,7 +28,7 @@ function WelcomeSection() {
  controls
  loop
  muted
- autoPlay
+ autoPlay={true} // Ensure autoplay is explicitly true
             />
             <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-card via-transparent to-transparent"></div>
           </div>
