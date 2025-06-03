@@ -1,11 +1,24 @@
+"use client";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Instagram, ExternalLink } from 'lucide-react';
-import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 export function InstagramSection() {
+
   const instagramProfileUrl = "https://www.instagram.com/tallguytycoon/?hl=en";
+
+ useEffect(() => {
+ const script = document.createElement('script');
+    script.src = 'https://static.elfsight.com/platform/platform.js';
+ script.async = true;
+ document.body.appendChild(script);
+
+ return () => {
+ document.body.removeChild(script);
+ };
+  }, []);
 
   return (
     <section id="instagram-feed" aria-labelledby="instagram-heading">
@@ -17,8 +30,7 @@ export function InstagramSection() {
         </CardHeader>
         <CardContent className="flex-grow">
           {/* Elfsight Instagram Feed | Untitled Instagram Feed */}
-          <script src="https://static.elfsight.com/platform/platform.js" async></script>
-          <div className="elfsight-app-770013fe-5180-4370-9aa8-f0b707c8e05b" data-elfsight-app-lazy></div>
+ <div className="elfsight-app-770013fe-5180-4370-9aa8-f0b707c8e05b" data-elfsight-app-lazy></div>
         </CardContent>
         <CardFooter className="mt-4">
           <Button asChild variant="default" className="w-full bg-gradient-to-r from-primary via-accent to-primary text-primary-foreground hover:opacity-90 transition-opacity">
@@ -31,4 +43,3 @@ export function InstagramSection() {
       </Card>
     </section>
   );
-}
