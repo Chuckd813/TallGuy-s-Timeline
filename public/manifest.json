@@ -3,7 +3,7 @@
   "short_name": "TallGuy's",
   "description": "Discover the latest from Armando Pantoja (TallGuyTycoon).",
   "start_url": "/",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "any",
   "theme_color": "#000000",
   "background_color": "#ffffff",
