@@ -4,15 +4,6 @@ import { Instagram, ExternalLink } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const placeholderPosts = [
-  { id: '1', alt: 'Instagram post placeholder 1', hint: 'luxury lifestyle' },
-  { id: '2', alt: 'Instagram post placeholder 2', hint: 'business meeting' },
-  { id: '3', alt: 'Instagram post placeholder 3', hint: 'travel cityscape' },
-  { id: '4', alt: 'Instagram post placeholder 4', hint: 'motivational quote' },
-  { id: '5', alt: 'Instagram post placeholder 5', hint: 'tech gadget' },
-  { id: '6', alt: 'Instagram post placeholder 6', hint: 'exotic car' },
-];
-
 export function InstagramSection() {
   const instagramProfileUrl = "https://www.instagram.com/tallguytycoon/?hl=en";
 
@@ -25,21 +16,9 @@ export function InstagramSection() {
           </CardTitle>
         </CardHeader>
         <CardContent className="flex-grow">
-          <div className="grid grid-cols-3 gap-2 md:gap-4">
-            {placeholderPosts.map((post) => (
-              <Link key={post.id} href={instagramProfileUrl} target="_blank" rel="noopener noreferrer" className="aspect-square block">
-                <div className="relative w-full h-full rounded-md overflow-hidden border border-border hover:opacity-80 transition-opacity">
-                  <Image
-                    src={`https://placehold.co/300x300.png`}
-                    alt={post.alt}
-                    layout="fill"
-                    objectFit="cover"
-                    data-ai-hint={post.hint}
-                  />
-                </div>
-              </Link>
-            ))}
-          </div>
+          {/* Elfsight Instagram Feed | Untitled Instagram Feed */}
+          <script src="https://static.elfsight.com/platform/platform.js" async></script>
+          <div className="elfsight-app-770013fe-5180-4370-9aa8-f0b707c8e05b" data-elfsight-app-lazy></div>
         </CardContent>
         <CardFooter className="mt-4">
           <Button asChild variant="default" className="w-full bg-gradient-to-r from-primary via-accent to-primary text-primary-foreground hover:opacity-90 transition-opacity">
