@@ -43,3 +43,5 @@ export function InstagramSection() {
       </Card>
     </section>
   );
+
+}
