@@ -1,14 +1,15 @@
 import Link from 'next/link';
-import { Flame, ExternalLink } from 'lucide-react';
+import Image from 'next/image'; // Import the Image component
+import { ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Flame className="h-6 w-6 text-primary" />
-          <span className="font-headline text-2xl font-bold text-primary">TallGuy's Timeline</span>
+        <Link href="/" className="mr-6 flex items-center space-x-2"> 
+          <Image src="/images/tallguy.jpg" alt="TallGuy's Timeline Logo" width={50} height={50} className="rounded-full" /> {/* Add the Image component */}
+          <span className="font-headline text-2xl font-bold text-primary gradient-text-animated">TallGuy's Timeline</span>
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-2">

@@ -112,3 +112,23 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.gradient-text-animated {
+ background: linear-gradient(to right, hsl(var(--primary)), hsl(var(--accent)), white, hsl(var(--accent)), hsl(var(--primary)));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  animation: gradient-flow 5s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center; /* Move the background across */
+  }
+}
+

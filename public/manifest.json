@@ -1,0 +1,22 @@
+{
+  "name": "TallGuy's Timeline",
+  "short_name": "TallGuy's",
+  "description": "Discover the latest from Armando Pantoja (TallGuyTycoon).",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
