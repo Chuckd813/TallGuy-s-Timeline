@@ -29,6 +29,7 @@ function WelcomeSection() {
  loop
  muted
  autoPlay={true} // Ensure autoplay is explicitly true
+ playsInline // Added for iOS inline playback
             />
             <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-card via-transparent to-transparent"></div>
           </div>
