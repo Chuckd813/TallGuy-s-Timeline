@@ -22,13 +22,13 @@ function WelcomeSection() {
             </CardHeader>
           </div>
           <div className="relative h-64 md:h-full min-h-[300px] order-first md:order-last">
-            <Image 
-              src="https://placehold.co/800x600.png" 
-              alt="Armando Pantoja - TallGuyTycoon" 
-              layout="fill"
-              objectFit="cover"
-              className="opacity-70"
-              data-ai-hint="businessman futuristic city"
+            <video
+ src="/images/tallguysnippet.mp4"
+ className="absolute inset-0 w-full h-full object-cover opacity-70"
+ controls
+ loop
+ muted
+ autoPlay
             />
             <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-card via-transparent to-transparent"></div>
           </div>

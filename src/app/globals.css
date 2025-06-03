@@ -113,6 +113,23 @@ body {
   }
 }
 
+.gradient-border-animated {
+  position: relative;
+  overflow: hidden; /* Needed to contain the pseudo-element */
+  /* Add a solid border color for fallback in case gradient border doesn't work */
+  border: 2px solid transparent; 
+}
+
+.gradient-border-animated::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent; /* Match the border width */
+}
+
 .gradient-text-animated {
  background: linear-gradient(to right, hsl(var(--primary)), hsl(var(--accent)), white, hsl(var(--accent)), hsl(var(--primary)));
   background-size: 200% auto;
@@ -120,7 +137,6 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  animation: gradient-flow 5s linear infinite; /* Adjust duration as needed */
 }
 
 @keyframes gradient-flow {
@@ -128,7 +144,7 @@ body {
     background-position: 0% center;
   }
   100% {
-    background-position: 200% center; /* Move the background across */
+ background-position: 200% center; /* Move the background across */
   }
 }
 

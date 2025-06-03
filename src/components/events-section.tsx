@@ -46,7 +46,7 @@ export function EventsSection() {
     <section id="events" aria-labelledby="events-heading">
       <Card className="bg-card/50 backdrop-blur-sm">
         <CardHeader>
-          <CardTitle id="events-heading" className="font-headline text-3xl text-center text-accent">Upcoming Events</CardTitle>
+          <CardTitle id="events-heading" className="font-headline text-3xl text-center text-accent gradient-text-animated">Upcoming Events</CardTitle>
         </CardHeader>
         <CardContent>
           {sortedEvents.length > 0 ? (

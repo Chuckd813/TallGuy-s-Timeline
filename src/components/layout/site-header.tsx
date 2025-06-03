@@ -8,7 +8,9 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2"> 
-          <Image src="/images/tallguy.jpg" alt="TallGuy's Timeline Logo" width={50} height={50} className="rounded-full" /> {/* Add the Image component */}
+          <div className="rounded-full p-1 border-2 border-transparent gradient-border-animated">
+ <Image src="/images/tallguy.jpg" alt="TallGuy's Timeline Logo" width={50} height={50} className="rounded-full" /> {/* Add the Image component */}
+ </div>
           <span className="font-headline text-2xl font-bold text-primary gradient-text-animated">TallGuy's Timeline</span>
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-4">
