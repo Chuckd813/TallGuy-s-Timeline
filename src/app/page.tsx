@@ -13,7 +13,7 @@ function WelcomeSection() {
         <div className="grid md:grid-cols-2 items-center">
           <div className="p-8 md:p-12">
             <CardHeader className="p-0">
-              <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold gradient-text-animated">
+              <h1 className="font-headline text-3xl md:text-5xl lg:text-6xl font-bold gradient-text-animated">
                 Welcome to <span className="text-primary">TallGuy's</span><span className="text-accent"> Timeline</span>
               </h1>
               <CardDescription className="mt-4 text-lg text-foreground/80 font-body">
