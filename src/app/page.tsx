@@ -24,7 +24,7 @@ function WelcomeSection() {
           <div className="relative h-64 md:h-full min-h-[300px] order-first md:order-last">
             <video
  src="/images/tallguysnippet.mp4"
- className="absolute inset-0 w-full h-full object-cover opacity-70"
+ className="absolute inset-0 w-full h-full object-cover opacity-70 z-10" // Added z-index
  controls
  loop
  muted
